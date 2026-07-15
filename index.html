@@ -193,7 +193,54 @@ artists to reach a global audience.
 </section>
 
 
+<!-- Founder Bio Section -->
+<section id="founder" class="founder">
+  <div class="container">
 
+    <div class="section-title">
+      <h2>Meet the Founder</h2>
+      <p>The vision behind Crown Empire Records.</p>
+    </div>
+
+    <div class="founder-content">
+
+      <div class="founder-image">
+        <img src="IMG_1463.png" alt="Founder of Crown Empire Records">
+      </div>
+
+      <div class="founder-text">
+        <h3>Your Name</h3>
+        <h4>Founder & CEO, Crown Empire Records</h4>
+
+        <p>
+          I am the coordinator and owner of <strong>Crown Empire Records</strong>, an
+          independent Nigerian record label dedicated to discovering,
+          developing, and promoting exceptional musical talent.
+        </p>
+
+        <p>
+          My vision is to build a platform where talented artists receive the
+          support, guidance, and opportunities they need to reach audiences
+          across Africa and the world. Through creativity, innovation, and
+          professionalism, Crown Empire Records is committed to shaping the
+          future of African music.
+        </p>
+
+        <p>
+          Every great artist deserves a chance to be heard. My mission is to
+          help turn raw talent into lasting success while building a legacy that
+          inspires the next generation of musicians and music lovers.
+        </p>
+
+        <blockquote>
+          "Building the next generation of African superstars."
+        </blockquote>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 <section id="artists">
 
 <h2>Our Artists</h2>
@@ -223,7 +270,136 @@ artists to reach a global audience.
 </div>
 
 </section>
+<!-- =========================
+     OPPORTUNITIES SECTION
+========================= -->
+<section id="opportunities" class="opportunities">
+    <div class="container">
 
+        <div class="section-title">
+            <h2>Opportunities</h2>
+            <p>Become part of the Crown Empire Records family.</p>
+        </div>
+
+        <div class="opportunity-grid">
+
+            <div class="opportunity-card">
+                <div class="icon">🎤</div>
+                <h3>Artist Demo Submission</h3>
+                <p>
+                    Are you an artist with exceptional talent? Send us your
+                    best music and let our A&R team discover your sound.
+                </p>
+                <a href="#contact" class="btn">Submit Demo</a>
+            </div>
+
+            <div class="opportunity-card">
+                <div class="icon">🤝</div>
+                <h3>Partnerships</h3>
+                <p>
+                    We welcome collaborations with brands, producers,
+                    promoters, event organizers and creative professionals
+                    looking to build great projects together.
+                </p>
+                <a href="#contact" class="btn">Partner With Us</a>
+            </div>
+
+            <div class="opportunity-card">
+                <div class="icon">🎬</div>
+                <h3>Creative Collaborations</h3>
+                <p>
+                    Music video directors, photographers, designers,
+                    songwriters and producers are invited to collaborate
+                    with Crown Empire Records.
+                </p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+
+            <div class="opportunity-card">
+                <div class="icon">💼</div>
+                <h3>Careers</h3>
+                <p>
+                    As Crown Empire Records continues to grow, exciting
+                    career opportunities will become available.
+                </p>
+                <span class="coming-soon">Coming Soon</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    /* =========================
+   OPPORTUNITIES
+========================= */
+
+.opportunities{
+    padding:100px 10%;
+    background:#0f0f0f;
+    color:#fff;
+}
+
+.opportunity-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.opportunity-card{
+    background:#1a1a1a;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:15px;
+    padding:35px 25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.opportunity-card:hover{
+    transform:translateY(-10px);
+    border-color:#d4af37;
+    box-shadow:0 12px 30px rgba(212,175,55,.2);
+}
+
+.icon{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.opportunity-card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.opportunity-card p{
+    color:#ccc;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#fff;
+}
+
+.coming-soon{
+    display:inline-block;
+    padding:10px 20px;
+    border:1px solid #d4af37;
+    border-radius:30px;
+    color:#d4af37;
+    font-weight:bold;
+}
 <section id="news">
 
 <h2>Latest News</h2>
